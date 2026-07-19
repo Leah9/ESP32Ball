@@ -1,7 +1,6 @@
 # Sendspin working on the ESP 32 S3 Ball.
 # Thanks to config files from https://github.com/RealDeco and https://github.com/el-bakkali amongst others.
 
-
 substitutions:
   name: esphome-web-22a5ac
   friendly_name: "Sphere 1"
@@ -24,7 +23,7 @@ substitutions:
   i2s_din_pin: "10"          # I2S Data In (Mic)
   i2s_dout_pin: "8"          # I2S Data Out (Speaker)
 
-  media_sample_rate: 48000
+  media_sample_rate: 16000
 
   speaker_enable_pin: "46"   # Speaker Enable
   touch_input_pin: "12"      # Touch interrupt
